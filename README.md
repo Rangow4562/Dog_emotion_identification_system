@@ -13,8 +13,8 @@
  summarizes reported classification accuracies FER2013. Most reported methods perform better than the estimated human performance (~ 72.75 %). 
  
  ##### Method Accuracy Rate
-       CNN(26)train 0.706%
-       CNN(26)test 0.6789%
+       CNN(26)train 0.726%
+       CNN(26)test 0.6889%
 
 ##### The best-reported single-network accuracy is 72.7 % . In this work, we achieve the state-of-the-art accuracy 70.6% as compared to the human emotion detection techniques.
 
@@ -51,3 +51,9 @@ fear: 68.8%
 The ‘black box’ nature of deep learning models makes it difficult to understand how the model processes the input image to obtain the final result. Visualizing the information captured inside deep neural networks is important in evaluating the effectiveness of the model and understanding how it computes its prediction.
 Thus, generating an understandable visualization of our CNN can help describe how it differentiates between and captures different facial emotions.
 The above images show model learned to focus on the mouth for happy.We generate the saliency map using our best performing network to understand how it classifies each emotion. The above figure shows a saliency map for each emotion before and after being superimposed on the image it is generated from. Judging by all the images, our CNN can effectively capture most of the critical regions for each emotion.Our approach is also efficiently removing regions such as the backdrop, which are unhelpful in conveying dog emotions
+
+##### Conclusion
+
+The purpose of this research was to determine if a deep learning system can classify various facial emotion classes in dogs, such as happiness, sadness, anger, and neutral. For this we proposed three different convolutional networks for this: a shallow CNN, sequential CNN, and MBCC-CNN. Following the experiments with the mentioned structures, we acquired accuracy of 58 percent, 61.28 percent, and 71.26 percent, respectively. The results indicate that by using mbcc-cnn, an accuracy of  71.26% can be obtained. The findings prove that, when compared to the other models, the suggested model mbcc-cnn outperforms in terms of facial expression recognition in dogs.
+This study might help us better understand how dogs react to different items and stimuli in their surroundings, which could be important in veterinary science and other studies. It may also be used to track down missing dogs.
+We propose further research on emotions in different animals. Additional efforts may be taken to increase classification performance, such as experimenting with alternative deep learning models on similar datasets, adding pre-processing methods, and combining other feature extraction tools. This research can be further expanded by doing a real-time detection.
