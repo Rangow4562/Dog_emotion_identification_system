@@ -19,6 +19,7 @@
 ##### The best-reported single-network accuracy is 72.7 % . In this work, we achieve the state-of-the-art accuracy 70.6% as compared to the human emotion detection techniques.
 
 ##### • OUTPUT
+
  anger: 99.85%
  emotion prob
 0 anger 0.998547
@@ -47,7 +48,10 @@ fear: 68.8%
 0 anger 0.048149
 1 happy 0.006969
 
+
 ##### • Saliency map
+[![image](https://www.linkpicture.com/q/Screenshot-2022-02-10-141516.png)](https://www.linkpicture.com/view.php?img=LPic621732e0e44a2246665877)
+
 The ‘black box’ nature of deep learning models makes it difficult to understand how the model processes the input image to obtain the final result. Visualizing the information captured inside deep neural networks is important in evaluating the effectiveness of the model and understanding how it computes its prediction.
 Thus, generating an understandable visualization of our CNN can help describe how it differentiates between and captures different facial emotions.
 The above images show model learned to focus on the mouth for happy.We generate the saliency map using our best performing network to understand how it classifies each emotion. The above figure shows a saliency map for each emotion before and after being superimposed on the image it is generated from. Judging by all the images, our CNN can effectively capture most of the critical regions for each emotion.Our approach is also efficiently removing regions such as the backdrop, which are unhelpful in conveying dog emotions
