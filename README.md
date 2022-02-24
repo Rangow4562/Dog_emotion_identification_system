@@ -1,7 +1,7 @@
 # Dog_emotion_identification_system
 
-TOPIC TITLE : Emotion Recognition in Dogs
-PROGRESS-
+### TOPIC TITLE : Emotion Recognition in Dogs
+#### PROGRESS-
 • We follow the ICML's official training, validation, and test sets while 
 training on our dataset (FER2013 dataset reference). Our dataset 
 contains 5954 pictures of four main emotions: anger, fear, happiness, 
@@ -17,6 +17,9 @@ tested using standard ten-crop averaging.
 • CNN Architecture
 • Performance
  
+ 
+[![image](https://www.linkpicture.com/q/ddd_2.jpg)](https://www.linkpicture.com/view.php?img=LPic6217311e118b61936798411)
+
  summarizes reported classification accuracies FER2013. Most reported 
 methods perform better than the estimated human performance (~ 72.75 %). 
 Method Accuracy Rate
