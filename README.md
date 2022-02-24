@@ -2,18 +2,9 @@
 
 ### TOPIC TITLE : Emotion Recognition in Dogs
 #### PROGRESS-
-##### • We follow the ICML's official training, validation, and test sets while 
-training on our dataset (FER2013 dataset reference). Our dataset 
-contains 5954 pictures of four main emotions: anger, fear, happiness, 
-and sadness.
-##### •  Training and Inference:
- We run all experiments for 300 epochs optimizing the cross-entropy 
-loss. In the following sections, we vary the optimizer used as well as the 
-learning rate schedulers and maintain other parameters constant.
-##### • We use a fixed momentum of 0.9 and a weight decay of 0.0001. All 
-experiments are run with gradient scaling to prevent gradient 
-underflow. The models are evaluated using validation accuracy and 
-tested using standard ten-crop averaging.
+##### • We follow the ICML's official training, validation, and test sets while training on our dataset (FER2013 dataset reference). Our dataset contains 5954 pictures of four main emotions: anger, fear, happiness, and sadness.
+##### •  Training and Inference:We run all experiments for 300 epochs optimizing the cross-entropy loss. In the following sections, we vary the optimizer used as well as the learning rate schedulers and maintain other parameters constant.
+##### • We use a fixed momentum of 0.9 and a weight decay of 0.0001. All experiments are run with gradient scaling to prevent gradient underflow. The models are evaluated using validation accuracy and tested using standard ten-crop averaging.
 ##### • CNN Architecture
 ##### • Performance
  
